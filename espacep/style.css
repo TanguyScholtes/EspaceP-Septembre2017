@@ -205,15 +205,10 @@ a, .link {
     width: 33%;
 }
 
-.content-preview {
-  margin: 1em 0;
-  border: 1px solid #831111;
-  border-radius: 1em;
-  padding: 1em; }
-  .content-preview ul {
+.link-list {
     list-style-type: disc;
     padding-left: 1em; }
-  .content-preview li {
+.link-list-item {
     margin: 0.5em 0; }
 
 .media {
