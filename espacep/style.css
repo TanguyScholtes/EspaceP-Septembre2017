@@ -186,9 +186,24 @@ a, .link {
         transition: background-color 500ms ease; }
 
 .main {
-  padding: 1.5em; }
+  padding: 1.5em;
+  max-width: 1024px;
+  text-align: justify;
+  margin: 0 auto; }
   .main h2 {
     margin-top: 0; }
+
+.news-title{
+    font-size: 1em;
+    text-align: center;
+}
+
+.more{
+    margin: 2.5em auto 1.5em auto;
+    text-align: center;
+    display: block;
+    width: 33%;
+}
 
 .content-preview {
   margin: 1em 0;
@@ -204,6 +219,10 @@ a, .link {
 .media {
   margin: 2em 0; }
 
+.informations{
+    margin-bottom: 2.5em;
+}
+
 .informations-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,17 +233,16 @@ a, .link {
 
 .info-type {
   text-align: center;
-  width: 23%;
-  border: 1px solid #831111; }
+  width: 23%; }
 
 .info-type--text {
   font-size: 0.8em; }
 
-.info-type--button {
+.info-type--button, .button{
   width: 100%;
   background-color: #831111;
   border-bottom: 2px solid #5c0c0c; }
-  .info-type--button a {
+.info-type--button a, .button a{
     display: inline-block;
     background-color: #831111;
     color: white;
@@ -232,7 +250,7 @@ a, .link {
     transition: background-color 500ms ease, text-decoration 500ms ease;
     width: 100%;
     padding: 1em 0; }
-    .info-type--button a:hover {
+.info-type--button a:hover, .button a:hover{
       background-color: #5c0c0c;
       color: white;
       text-decoration: none;
@@ -257,7 +275,7 @@ a, .link {
     text-align: center;
 }
 .homepage-min{
-    font-size: 0.75em;
+    font-size: 0.60em;
 }
 .homepage-subtitle{
     display: block;
