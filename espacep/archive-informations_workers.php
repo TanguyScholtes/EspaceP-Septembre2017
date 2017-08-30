@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <div class="main main__content">
-    <h1 class="page-title">Informations Travailleurs du Sexe / Sex Workers</h1>
+    <h1 class="page-title">Informations for Sex Workers</h1>
 
     <div>
-        <?php $about = new WP_Query('post_type=informations_workers&order=ASC'); ?>
+        <?php $about = new WP_Query('post_type=infos_workers&order=ASC'); ?>
         <?php if ( $about->have_posts() ) : ?>
             <?php while ( $about->have_posts() ) : $about->the_post(); ?>
                 <section class="media">

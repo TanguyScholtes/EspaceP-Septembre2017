@@ -39,7 +39,7 @@
 			'has_archive' => true,
 		)
 	);
-	register_post_type( 'informations_main',
+	register_post_type( 'infos_main',
 		array(
 			'labels' => array(
 				'name' => __( 'Informations Générales' ),
@@ -49,17 +49,27 @@
 			'has_archive' => true,
 		)
 	);
-    register_post_type( 'informations_workers',
+    register_post_type( 'infos_travailleurs',
 		array(
 			'labels' => array(
-				'name' => __( 'Informations Travailleurs du Sexe / Sex Workers' ),
-				'singular_name' => __( 'Information Travailleurs du Sexe / Sex Workers' )
+				'name' => __( 'Informations Travailleurs du Sexe' ),
+				'singular_name' => __( 'Information Travailleurs du Sexe' )
 			),
 			'public' => true,
 			'has_archive' => true,
 		)
 	);
-    register_post_type( 'informations_students',
+    register_post_type( 'infos_workers',
+		array(
+			'labels' => array(
+				'name' => __( 'Informations for Sex Workers' ),
+				'singular_name' => __( 'Information for Sex Workers' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'infos_students',
 		array(
 			'labels' => array(
 				'name' => __( 'Informations Etudiants' ),
@@ -69,7 +79,7 @@
 			'has_archive' => true,
 		)
 	);
-    register_post_type( 'informations_clients',
+    register_post_type( 'infos_clients',
 		array(
 			'labels' => array(
 				'name' => __( 'Informations Clients' ),
