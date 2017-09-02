@@ -262,6 +262,7 @@ function twentyfifteen_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu',      'twentyfifteen' ),
 		'social'  => __( 'Social Links Menu', 'twentyfifteen' ),
+        'footer'  => __( 'Footer Nav Menu', 'espacep' ),
 	) );
 
 	/*
