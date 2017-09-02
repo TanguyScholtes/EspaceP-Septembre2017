@@ -214,11 +214,11 @@ a, .link {
 .media {
   margin: 2em 0; }
 
-.informations{
+.informations, .contacts{
     margin-bottom: 2.5em;
 }
 
-.informations-wrapper {
+.informations-wrapper, .contacts-wrapper{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,15 +229,19 @@ a, .link {
 .info-type {
   text-align: center;
   width: 23%; }
+.contact-type{
+    text-align: center;
+    width: 31%;
+}
 
-.info-type--text {
+.info-type--text, .contact-type--text{
   font-size: 0.8em; }
 
-.info-type--button, .button{
+.info-type--button, .button, .contact-type--button{
   width: 100%;
   background-color: #831111;
   border-bottom: 2px solid #5c0c0c; }
-.info-type--button a, .button a{
+.info-type--button a, .button a, .contact-type--button a{
     display: inline-block;
     background-color: #831111;
     color: white;
@@ -245,7 +249,7 @@ a, .link {
     transition: background-color 500ms ease, text-decoration 500ms ease;
     width: 100%;
     padding: 1em 0; }
-.info-type--button a:hover, .button a:hover{
+.info-type--button a:hover, .button a:hover, .contact-type--button a:hover{
       background-color: #5c0c0c;
       color: white;
       text-decoration: none;
@@ -259,6 +263,13 @@ strong{
 li{
     line-height: 1.25em;
     margin: 0.5em 0;
+}
+
+.gmap{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
 }
 /*--- Homepage banner ---*/
 .banner {

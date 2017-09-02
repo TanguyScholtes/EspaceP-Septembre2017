@@ -119,16 +119,6 @@
 			'has_archive' => true,
 		)
 	);
-	register_post_type( 'contacts',
-		array(
-			'labels' => array(
-				'name' => __( 'Contacts' ),
-				'singular_name' => __( 'Contact' )
-			),
-			'public' => true,
-			'has_archive' => true,
-		)
-	);
     register_post_type( 'partners',
 		array(
 			'labels' => array(
@@ -144,6 +134,66 @@
 			'labels' => array(
 				'name' => __( 'À la une' ),
 				'singular_name' => __( 'À la une' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'liege',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Liège' ),
+				'singular_name' => __( 'Antenne Liège' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'bruxelles',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Bruxelles' ),
+				'singular_name' => __( 'Antenne Bruxelles' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'mons',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Mons' ),
+				'singular_name' => __( 'Antenne Mons' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'charleroi',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Charleroi' ),
+				'singular_name' => __( 'Antenne Charleroi' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'arlon',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Arlon' ),
+				'singular_name' => __( 'Antenne Arlon' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+    register_post_type( 'namur',
+		array(
+			'labels' => array(
+				'name' => __( 'Antenne Namur' ),
+				'singular_name' => __( 'Antenne Namur' )
 			),
 			'public' => true,
 			'has_archive' => true,
