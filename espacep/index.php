@@ -25,17 +25,17 @@ get_header(); ?>
 		<h2 class="title">Informations</h2>
 		<div class="informations-wrapper">
 			<div class="info-type">
-				<p class="info-type--button"><a href="infos_travailleurs">Travailleurs du sexe</a></p>
-				<p class="info-type--text"><a href="infos_workers">Sex Worker speaking english ? Please visit this page.</a></p>
+				<p class="info-type--button"><a href="/espacep/travailleurs">Travailleurs du sexe</a></p>
+				<p class="info-type--text"><a href="/espacep/workers">Sex Worker speaking english ? Please visit this page.</a></p>
 			</div>
 			<div class="info-type">
-				<p class="info-type--button"><a href="infos_clients">Clients</a></p>
+				<p class="info-type--button"><a href="/espacep/clients">Clients</a></p>
 			</div>
 			<div class="info-type">
-				<p class="info-type--button"><a href="infos_main">Curieux</a></p>
+				<p class="info-type--button"><a href="/espacep/news">Curieux</a></p>
 			</div>
 			<div class="info-type">
-				<p class="info-type--button"><a href="infos_students">Étudiants</a></p>
+				<p class="info-type--button"><a href="/espacep/students">Étudiants</a></p>
 			</div>
 		</div>
 	</section>
@@ -54,7 +54,7 @@ get_header(); ?>
 			</ul>
 		<?php endif; ?>
 		<div class="more">
-			<p class="button"><a href="actualites">Voir plus d'actualités</a></p>
+			<p class="button"><a href="/espacep/actualites">Voir plus d'actualités</a></p>
 		</div>
 	</section>
 

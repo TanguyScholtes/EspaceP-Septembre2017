@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
 <div class="main main__content">
-    <h1 class="page-title">Informations Etudiants</h1>
-
+    <h1 class="page-title">Informations Clients</h1>
     <div>
-        <?php $about = new WP_Query('post_type=informations_students&order=ASC'); ?>
+        <?php $about = new WP_Query('post_type=clients&order=ASC'); ?>
         <?php if ( $about->have_posts() ) : ?>
             <?php while ( $about->have_posts() ) : $about->the_post(); ?>
                 <section class="media">

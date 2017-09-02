@@ -251,6 +251,15 @@ a, .link {
       text-decoration: none;
       -webkit-transition: background-color 500ms ease, text-decoration 500ms ease;
       transition: background-color 500ms ease, text-decoration 500ms ease; }
+
+strong{
+    font-weight: bold;
+}
+
+li{
+    line-height: 1.25em;
+    margin: 0.5em 0;
+}
 /*--- Homepage banner ---*/
 .banner {
   width: 100%;

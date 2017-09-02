@@ -1,10 +1,14 @@
 <?php get_header(); ?>
 
 <div class="main main__content">
-    <h1 class="page-title">Informations Etudiants</h1>
+    <h1 class="page-title">Informations for Sex Workers</h1>
 
     <div>
-        <?php $about = new WP_Query('post_type=informations_students&order=ASC'); ?>
+        <p><a href="/espacep/travailleurs">Vous parlez Français ? Voir cette page en Français.</a></p>
+    </div>
+
+    <div>
+        <?php $about = new WP_Query('post_type=workers&order=ASC'); ?>
         <?php if ( $about->have_posts() ) : ?>
             <?php while ( $about->have_posts() ) : $about->the_post(); ?>
                 <section class="media">
