@@ -315,6 +315,10 @@ li{
     margin-top: 5.25em;
 }
 
+.page-title, .title{
+    margin: 0 0 1.5em 0;
+}
+
 @media screen and ( min-width: 600px ) {
     /*Medium screen (tablets)*/
     body{
@@ -345,9 +349,6 @@ li{
     .navigation .menu-item {
         display: inline-block;
     }
-    .page-title, .title{
-        margin: 1.5em 0;
-    }
 
     .info-type{
         width: 23%;
@@ -368,11 +369,19 @@ li{
         float: right;
     }
 }
+@media screen and ( min-width: 955px ) {
+    body{
+        margin-top: 4em;
+    }
+    .page-title, .title{
+        margin: 1.5em 0;
+    }
+}
 @media screen and ( min-width: 1024px ) {
     /*Large screen (desktop)*/
     body{
         width: 80%;
-        margin: 2em auto 0 auto;
+        margin: 4em auto 0 auto;
     }
     .banner {
       width: 100%;
@@ -388,4 +397,9 @@ li{
           position: fixed;
           z-index: 1;
       }
+}
+@media screen and ( min-width: 1165px ) {
+    body{
+        margin: 2em auto 0 auto;
+    }
 }
